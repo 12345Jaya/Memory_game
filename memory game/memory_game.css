@@ -1,0 +1,137 @@
+body{
+    width:1520px;
+    height:710px;
+    background-color:rgb(255,216,20);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+#title{
+    font-size:50px;
+    font-weight:bold;
+    font-family:cursive;
+    margin:20px;
+}
+.container{
+    background-color:white;
+    width:55svh;
+    height:67svh;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+/* --------title-------- */
+#moves,#time-div,#points{
+    font-weight:bold;
+}
+.title{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:center;
+    width:100%;
+    height:12svh;
+    font-size:18px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.title-1{
+    display:flex;
+    flex-direction:column;
+    color:rgb(0, 0, 0);
+}
+/* ---------game-------- */
+.game{
+    background-color: white;
+    width:50svh;
+    height:50svh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.row{
+    width:50svh;
+    height:15svh;
+    margin:0.1px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:white;
+}
+.cell{
+    background-color:rgb(255,216,20);
+    width:11svh;
+    height:11svh;
+    margin:1px;
+    border-radius:5px;
+    font-size:40px;
+    border:3px solid black;
+    text-align:center;
+    font-weight: bolder;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/* ---------buttons----------- */
+.btn{
+    background-color:white;
+    width:45svh;
+    height:10svh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.common-btn{
+    width:12svh;
+    height:5svh;
+    border:none;
+    color:rgb(0, 0, 0);
+    font-family:'Trebuchet MS';
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+.start{
+    background-color:rgb(20, 236, 20);
+}
+.stop{
+    background-color:rgb(245, 54, 54);
+}
+/* -----img----- */
+img{
+    width:11svh;
+    height:11svh;
+}
+/* -----result----- */
+.res_div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+    background-color:rgb(255, 255, 255);
+}
+.res_h1{
+    color:rgb(237, 31, 189);
+    font-family:cursive;
+    font-size:50px;
+}
+.res_btn{
+    color:black;
+    background-color:rgb(13, 255, 0);
+    border:none;
+    border-radius:10px;
+    width:200px;
+    height:60px;
+    font-weight:bold;
+    font-family:cursive;
+    font-size:15px;
+}
